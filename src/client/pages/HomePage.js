@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Home = () => {
   return (
@@ -6,7 +6,9 @@ const Home = () => {
       Home Best Component
       <button onClick={() => console.log('Hello!!!')}>Click Me</button>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default {
+  component: Home
+}
